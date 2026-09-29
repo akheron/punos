@@ -6,8 +6,9 @@ Punos-link publishes data from punos devices to MQTT over Ethernet.
 
 Features:
 - MCU: STM32G071
-- Punos connectivity: TI CC1101 + trace antenna
-- Ethernet: W5500, Hanrun HR911105A
+- Connectivity: TI CC1101 + 868 MHz trace antenna
+- Ethernet: WizNet W5500, Hanrun HR911105A
+- Temperature & humidity sensor: Sensirion SHT40
 - External flash: 512 KB SPI NOR (for firmware updates over Ethernet)
 - Power: 5V / 300 mA
 

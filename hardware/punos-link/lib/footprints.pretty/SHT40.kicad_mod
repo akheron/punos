@@ -1,0 +1,259 @@
+(footprint "SHT40"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Sensirion, SHT40, SHT41, SHT45, DFN, 4 Pin (https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf)")
+	(tags "DFN NoLead")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "781cab01-f19a-4dd7-bd8e-fc1fdede38c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SHT40"
+		(at 0 1.7 0)
+		(layer "F.Fab")
+		(uuid "755055bc-e0e8-45df-a1e4-7af4aef25371")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8a1312a-32c6-4e00-8a22-5ccee6482e22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3637dc52-084d-41c4-975d-140c4714244e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.75 -0.86)
+		(end 0.75 -0.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92b3604e-aaac-435a-bc94-d7b1fb65a396")
+	)
+	(fp_line
+		(start -0.75 0.86)
+		(end 0.75 0.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "708497d6-1ed1-497b-a5ee-1a9987fe27df")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 -0.6) (xy -1.48 -0.6) (xy -1.2 -0.88) (xy -1.2 -0.6)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3d58797d-987e-4692-a264-3caca3c16b0f")
+	)
+	(fp_line
+		(start -1.2 -1)
+		(end -1.2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9172f6e-a49c-43f9-bb3f-2cfe256a7a24")
+	)
+	(fp_line
+		(start -1.2 1)
+		(end 1.2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a146e27-d84d-43aa-b0d0-3ee66ace44ae")
+	)
+	(fp_line
+		(start 1.2 -1)
+		(end -1.2 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4caef8b-b977-4c25-a861-082c137cd0e9")
+	)
+	(fp_line
+		(start 1.2 1)
+		(end 1.2 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb310bb6-daa2-4cef-af4c-8779cd29281d")
+	)
+	(fp_line
+		(start -0.75 -0.375)
+		(end -0.375 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25fd7b32-0413-4594-a96c-361db3931796")
+	)
+	(fp_line
+		(start -0.75 0.75)
+		(end -0.75 -0.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac4b0806-842c-4b00-bf5e-86dd26628a59")
+	)
+	(fp_line
+		(start -0.375 -0.75)
+		(end 0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60240e65-26fd-4c5c-a4ac-5d234edcc4c8")
+	)
+	(fp_line
+		(start 0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bcb81433-9a96-4202-b896-7fed9ca68fbe")
+	)
+	(fp_line
+		(start 0.75 0.75)
+		(end -0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73af5603-b55a-460e-8d7e-d7450b56e244")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b1b6eb73-5b03-45c4-88a3-b8fd4700e872")
+		(effects
+			(font
+				(size 0.38 0.38)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 -0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "600c6e55-1ef4-45e7-b25b-3876647b1a0a")
+	)
+	(pad "2" smd rect
+		(at -0.7 0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d54eca4f-c7b3-4be3-88b3-07f00568e47f")
+	)
+	(pad "3" smd rect
+		(at 0.7 0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f475db05-97a7-452a-b9a9-1e593114b1eb")
+	)
+	(pad "4" smd rect
+		(at 0.7 -0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "87334fc5-c8df-4e6b-b9b0-38b09f239ac4")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "7debfd3a-c7a3-4e43-bba1-a06d4e6940c4")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0.75 -0.55) (xy 0.45 -0.55) (xy 0.45 -0.25) (xy 0.75 -0.25) (xy 0.75 0.25) (xy 0.45 0.25) (xy 0.45 0.55)
+				(xy 0.75 0.55) (xy 0.75 0.75) (xy -0.75 0.75) (xy -0.75 0.55) (xy -0.45 0.55) (xy -0.45 0.25) (xy -0.75 0.25)
+				(xy -0.75 -0.25) (xy -0.45 -0.25) (xy -0.45 -0.55) (xy -0.75 -0.55) (xy -0.75 -0.75) (xy 0.75 -0.75)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${AKHERON_LIB_DIR}/3d-models/SHT40A-AD1B-R2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
