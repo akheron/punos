@@ -8,7 +8,6 @@ Features:
 - MCU: STM32G071
 - Connectivity: TI CC1101 + 868 MHz trace antenna
 - Ethernet: WizNet W5500, Hanrun HR911105A
-- Temperature & humidity sensor: Sensirion SHT40
 - External flash: 512 KB SPI NOR (for firmware updates over Ethernet)
 - Power: 5V / 300 mA
 
